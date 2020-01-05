@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+  import React, { Component } from 'react'
 import {FaCocktail,FaHiking,FaShuttleVan,FaBeer} from 'react-icons/fa';
 import Title from '../components/Title';
 
@@ -6,25 +6,25 @@ export default class Services extends Component {
   state={
     services:[
       {
-          icon:<FaCocktail/>,
-          title:"Free cocktail",
-          info:'Lorem ipsum, or lipsum as it is sometimes known. Magni, corporis!'
+        icon:<FaCocktail/>,
+        title:"Free cocktails",
+        info:'Lorem ipsum, or lipsum as it is sometimes known. Magni, corporis!'
       },
       {
         icon:<FaHiking/>,
         title:"Endless Hiking",
         info:'Lorem ipsum, or lipsum as it is sometimes known. Magni, corporis!'
-    },
-    {
+      },
+      {
         icon:<FaShuttleVan/>,
         title:"Free shuttle",
         info:'Lorem ipsum, or lipsum as it is sometimes known. Magni, corporis!'
-    },
-    {
+      },
+      {
         icon:<FaBeer/>,
         title:"Strongest Beer",
         info:'Lorem ipsum, or lipsum as it is sometimes known. Magni, corporis!'
-    },
+      },
     ] 
   }
   render() {
